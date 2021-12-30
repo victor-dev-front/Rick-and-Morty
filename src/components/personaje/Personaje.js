@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { PersonajesContext } from '../../Context/PersonajesContext';
 import { useHistory } from "react-router-dom";
-import { colorBorde } from '../../services/colorBorde';
+import { colorBorde } from '../../utils/colorBorde';
 
 
 const Personaje = ({data}) => {

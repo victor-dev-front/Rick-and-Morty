@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { PersonajesContext } from "../../Context/PersonajesContext";
-import Search from "../search/Search";
-import Cards from "../cards/Cards";
-import getPersonaje from "../../services/filtrarPersonajes";
-import Error from "../error/Error";
+import Search from "../../components/search/Search";
+import Cards from "../../components/cards/Cards";
+import getPersonaje from "../../utils/filtrarPersonajes";
+import Error from "../../components/error/Error";
 
 const Home = () => {
     const {datas,nuevosPersonajes} = useContext(PersonajesContext);

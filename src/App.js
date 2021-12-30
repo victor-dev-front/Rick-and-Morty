@@ -1,8 +1,8 @@
 import PersonajesProvider from "./Context/PersonajesContext";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/home/Home";
-import PersonajeInformacion from "./pages/PersonajeInformacion";
+import Home from "./pages/home/Home";
+import PersonajeInformacion from "./pages/personajeInformacion/PersonajeInformacion";
 
 function App() {
 

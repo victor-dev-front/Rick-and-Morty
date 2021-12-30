@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { PersonajesContext } from "../../Context/PersonajesContext";
 import Personaje from "../personaje/Personaje";
-import getPersonaje from "../../services/filtrarPersonajes";
+import getPersonaje from "../../utils/filtrarPersonajes";
 
 const Cards = () => {
 
