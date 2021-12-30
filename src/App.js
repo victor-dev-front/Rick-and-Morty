@@ -1,5 +1,5 @@
 import PersonajesProvider from "./Context/PersonajesContext";
-
+import "./app.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/home/Home";
 import PersonajeInformacion from "./pages/personajeInformacion/PersonajeInformacion";

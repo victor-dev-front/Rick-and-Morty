@@ -1,0 +1,19 @@
+/*input*/
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+  
+.buscador__input{
+    background: radial-gradient(circle, rgba(229,213,232,1) 0%, rgba(169,184,182,1) 100%);
+    display: inline-block;
+    width: 95%;
+    height: 3rem;
+    margin: 2rem 0 4rem 0;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    font-family: var(--parrafo);
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 30px;
+}

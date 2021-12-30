@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { PersonajesContext } from "../../Context/PersonajesContext";
+import style from "./search.module.css";
 
 const Search = () => {
   
@@ -12,9 +13,9 @@ const Search = () => {
     }
  
     return ( 
-        <div className="buscador">
+        <div className={style.buscador}>
             <input 
-              className="buscador__input"
+              className={style.buscador__input}
               placeholder="ingrese el nombre"
               type="text"
               onChange={handleChange}
